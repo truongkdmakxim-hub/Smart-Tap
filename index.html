@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Smart Tap – Vòi lấy nước thông minh 5 chế độ | Makxim</title>
-<meta name="description" content="Smart Tap – vòi lấy nước thông minh Makxim kết nối máy lọc R.O: 5 chế độ nước 99°C, 85°C, 65°C, 45°C và nước thường, 4 định lượng 150–500ml, nóng sau 3 giây. Giá ưu đãi 3.175.000đ.">
+<meta name="description" content="Smart Tap – vòi lấy nước thông minh Makxim kết nối máy lọc R.O: 5 chế độ nước: nước sôi, 85°C, 65°C, 45°C và nước thường, 4 định lượng 200–999ml, nóng sau 3 giây. Giá ưu đãi 3.175.000đ.">
 <link rel="canonical" href="https://smarttap.makxim.vn/">
 <meta name="theme-color" content="#121316">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
@@ -465,7 +465,7 @@ dialog::backdrop{background:rgba(10,10,12,.72);backdrop-filter:blur(4px)}
       <h1><small>Smart Tap</small>Một chạm –<br><em>đúng nhiệt độ</em><br>bạn cần.</h1>
       <p class="hero-sub">Gắn lên bồn rửa, nối với máy lọc R.O, chiếc vòi nhỏ trở thành trạm nước 5 chế độ. Có nước nóng sau 3 giây, không cần ấm đun, không cần cây nước nóng lạnh.</p>
       <div class="temps" aria-label="5 chế độ nước">
-        <span>99°C</span><span>85°C</span><span>65°C</span><span>45°C</span><span>Nước thường</span>
+        <span>Nước sôi</span><span>85°C</span><span>65°C</span><span>45°C</span><span>Nước thường</span>
       </div>
       <div class="price-box">
         <div>
@@ -489,7 +489,7 @@ dialog::backdrop{background:rgba(10,10,12,.72);backdrop-filter:blur(4px)}
     <div class="hero-visual">
       <img src="assets/hero-glass.webp" alt="Vòi lấy nước thông minh Smart Tap màu xám than với màn hình cảm ứng, đặt cạnh ly nước" width="855" height="1200" fetchpriority="high">
       <div class="chip c1"><b>3s</b>Có nước nóng<br>tức thì</div>
-      <div class="chip c2"><b>4</b>Định lượng<br>150 – 500ml</div>
+      <div class="chip c2"><b>4</b>Định lượng<br>200 – 999ml</div>
     </div>
   </div>
 </section>
@@ -538,7 +538,7 @@ dialog::backdrop{background:rgba(10,10,12,.72);backdrop-filter:blur(4px)}
       </article>
     </div>
     <div class="answer reveal">
-      <p><b>Smart Tap gói tất cả vào một chiếc vòi.</b> Chọn nhiệt độ, chọn lượng nước, chạm một lần. Nước R.O ra đúng 45°C để pha sữa, 85°C để pha cà phê hay 99°C để nấu mì, chỉ sau khoảng 3 giây.</p>
+      <p><b>Smart Tap gói tất cả vào một chiếc vòi.</b> Chọn nhiệt độ, chọn lượng nước, chạm một lần. Nước R.O ra đúng 45°C để pha sữa, 85°C để pha cà phê hay nước sôi để nấu mì, chỉ sau khoảng 3 giây.</p>
       <a class="btn btn-red" href="#che-do">Xem cách hoạt động</a>
     </div>
   </div>
@@ -556,13 +556,13 @@ dialog::backdrop{background:rgba(10,10,12,.72);backdrop-filter:blur(4px)}
       <div class="panel reveal">
         <div class="screen">
           <div>
-            <div class="readout" id="readout">99<sup>°C</sup></div>
+            <div class="readout" id="readout">Sôi</div>
             <div class="readout-sub" id="readoutSub"><b>Nước sôi</b> · 200ml</div>
           </div>
           <div class="cup" id="cup"><div class="water" id="water"></div></div>
         </div>
         <div class="mode-row" role="group" aria-label="Chọn nhiệt độ">
-          <button class="mode" style="--c:#ff3b3b" data-mode="0" aria-pressed="true"><span class="dot"></span><b>99°</b><small>Nước sôi</small></button>
+          <button class="mode" style="--c:#ff3b3b" data-mode="0" aria-pressed="true"><span class="dot"></span><b>Sôi</b><small>Nước sôi</small></button>
           <button class="mode" style="--c:#ff7a1a" data-mode="1" aria-pressed="false"><span class="dot"></span><b>85°</b><small>Cà phê</small></button>
           <button class="mode" style="--c:#f5b400" data-mode="2" aria-pressed="false"><span class="dot"></span><b>65°</b><small>Mật ong</small></button>
           <button class="mode" style="--c:#f2dfb0" data-mode="3" aria-pressed="false"><span class="dot"></span><b>45°</b><small>Pha sữa</small></button>
@@ -570,16 +570,16 @@ dialog::backdrop{background:rgba(10,10,12,.72);backdrop-filter:blur(4px)}
         </div>
         <div class="vol-row" role="group" aria-label="Chọn định lượng">
           <span>Định lượng</span>
-          <button class="vol" data-vol="150" aria-pressed="false">150ml</button>
           <button class="vol" data-vol="200" aria-pressed="true">200ml</button>
           <button class="vol" data-vol="300" aria-pressed="false">300ml</button>
           <button class="vol" data-vol="500" aria-pressed="false">500ml</button>
+          <button class="vol" data-vol="999" aria-pressed="false">999ml</button>
         </div>
         <button class="btn btn-red dispense" id="dispense">💧 Chạm để lấy nước</button>
       </div>
 
       <div class="mode-info reveal" id="modeInfo" style="--c:#ff3b3b">
-        <span class="tag" id="miTag">99°C · Nước sôi</span>
+        <span class="tag" id="miTag">Nước sôi</span>
         <h3 id="miTitle">Pha mì, pha trà, tráng bình sữa</h3>
         <p id="miText">Nhiệt độ cao nhất của Smart Tap, dùng cho mọi việc trước giờ phải bắc ấm lên bếp.</p>
         <ul id="miList"></ul>
@@ -604,8 +604,8 @@ dialog::backdrop{background:rgba(10,10,12,.72);backdrop-filter:blur(4px)}
         <h3>Thấy rõ nhiệt độ, chọn bằng một chạm</h3>
         <p>Màn hình LED trên thân vòi hiển thị nhiệt độ theo thời gian thực. Biểu tượng cà phê, mật ong, sữa giúp cả nhà, kể cả ông bà, dùng được ngay mà không cần đọc hướng dẫn.</p>
         <ul>
-          <li><svg class="i"><use href="#i-check"/></svg>5 mức nhiệt: 99°C · 85°C · 65°C · 45°C · nước thường</li>
-          <li><svg class="i"><use href="#i-check"/></svg>4 định lượng tự ngắt: 150 · 200 · 300 · 500ml, không lo tràn cốc</li>
+          <li><svg class="i"><use href="#i-check"/></svg>5 chế độ nước: nước sôi · 85°C · 65°C · 45°C · nước thường</li>
+          <li><svg class="i"><use href="#i-check"/></svg>4 định lượng tự ngắt: 200 · 300 · 500 · 999ml, không lo tràn cốc</li>
           <li><svg class="i"><use href="#i-check"/></svg>Nước thường lấy bằng núm xoay, vẫn dùng được khi mất điện</li>
         </ul>
       </div>
@@ -668,7 +668,7 @@ dialog::backdrop{background:rgba(10,10,12,.72);backdrop-filter:blur(4px)}
         <path d="M318 146 v40" stroke="#ff6b4a" stroke-width="5" stroke-linecap="round" class="flow"/>
         <!-- screen -->
         <rect x="196" y="78" width="96" height="36" rx="8" fill="#08090a"/>
-        <text x="244" y="102" fill="#f5a623" font-size="17" text-anchor="middle" font-family="Be Vietnam Pro, sans-serif" font-weight="600">99°C</text>
+        <text x="244" y="102" fill="#f5a623" font-size="17" text-anchor="middle" font-family="Be Vietnam Pro, sans-serif" font-weight="600">Nước sôi</text>
         <!-- labels -->
         <g font-family="Be Vietnam Pro, sans-serif" font-size="13" fill="#fff">
           <line x1="180" y1="262" x2="222" y2="262" stroke="#f5a623"/><text x="228" y="258" font-weight="700" fill="#f5a623">Tấm film gia nhiệt</text><text x="228" y="275" fill="#aaa">quấn quanh thân vòi</text>
@@ -683,7 +683,7 @@ dialog::backdrop{background:rgba(10,10,12,.72);backdrop-filter:blur(4px)}
           <tbody>
             <tr><td>Có nước nóng</td><td class="me">~3 giây</td><td>3 – 5 phút</td><td>Có sẵn, nhưng giữ nóng 24/7</td></tr>
             <tr><td>Chọn nhiệt độ</td><td class="me">5 mức chính xác</td><td>Chỉ có nước sôi</td><td>Nóng / lạnh</td></tr>
-            <tr><td>Định lượng</td><td class="me">150 – 500ml tự ngắt</td><td>Không</td><td>Không</td></tr>
+            <tr><td>Định lượng</td><td class="me">200 – 999ml tự ngắt</td><td>Không</td><td>Không</td></tr>
             <tr><td>Nguồn nước</td><td class="me">R.O trực tiếp từ máy lọc</td><td>Phải rót vào ấm</td><td>Bình úp, thay định kỳ</td></tr>
             <tr><td>Điện năng</td><td class="me">Chỉ khi lấy nước</td><td>Mỗi lần đun</td><td>Liên tục cả ngày</td></tr>
             <tr><td>Diện tích</td><td class="me">Gắn trên bồn rửa</td><td>Chiếm mặt bếp</td><td>Chiếm một góc nhà</td></tr>
@@ -729,11 +729,11 @@ dialog::backdrop{background:rgba(10,10,12,.72);backdrop-filter:blur(4px)}
     <div class="persona-grid">
       <article class="persona reveal">
         <img src="assets/persona-sua.webp" alt="Màn hình Smart Tap với chế độ pha sữa 45°C" width="960" height="720" loading="lazy">
-        <div><span class="t">45°C · 150ml</span><h3>Gia đình có con nhỏ</h3><p>Pha sữa đúng 45°C chỉ với một chạm, kể cả lúc nửa đêm. Không cần pha nóng lạnh, không cần đoán, không sợ bỏng tay bé.</p></div>
+        <div><span class="t">45°C · 200ml</span><h3>Gia đình có con nhỏ</h3><p>Pha sữa đúng 45°C chỉ với một chạm, kể cả lúc nửa đêm. Không cần pha nóng lạnh, không cần đoán, không sợ bỏng tay bé.</p></div>
       </article>
       <article class="persona reveal">
         <img src="assets/persona-cafe.webp" alt="Rót nước từ Smart Tap vào ly thủy tinh" width="960" height="720" loading="lazy">
-        <div><span class="t">85°C · 99°C</span><h3>Người mê cà phê, trà</h3><p>85°C cho cà phê thơm mà không đắng gắt, 99°C cho ấm trà hay bữa mì vội trước giờ làm. Không còn cảnh đứng chờ ấm sôi.</p></div>
+        <div><span class="t">85°C · Nước sôi</span><h3>Người mê cà phê, trà</h3><p>85°C cho cà phê thơm mà không đắng gắt, nước sôi cho ấm trà hay bữa mì vội trước giờ làm. Không còn cảnh đứng chờ ấm sôi.</p></div>
       </article>
       <article class="persona reveal">
         <img src="assets/persona-bep.webp" alt="Smart Tap lắp cạnh vòi rửa trong căn bếp hiện đại" width="960" height="720" loading="lazy">
@@ -756,7 +756,7 @@ dialog::backdrop{background:rgba(10,10,12,.72);backdrop-filter:blur(4px)}
       <ol class="steps">
         <li><div><b>Khoan lỗ trên mặt đá hoặc bồn rửa</b><span>Đường kính lỗ lắp 22 – 26mm, dùng lại lỗ vòi R.O cũ nếu có.</span></div></li>
         <li><div><b>Nối đường nước ra của máy lọc R.O</b><span>Kết nối đầu cấp nước dưới thân vòi với ống nước sạch của máy lọc.</span></div></li>
-        <li><div><b>Cắm nguồn và sử dụng</b><span>Cắm adapter vào cổng DC, chọn nhiệt độ trên màn hình là có nước ngay.</span></div></li>
+        <li><div><b>Cắm nguồn và sử dụng</b><span>Cắm điện 220V, chọn nhiệt độ trên màn hình là có nước ngay.</span></div></li>
       </ol>
       <div class="combo-note">
         <p><b>Chưa có máy lọc R.O?</b>Chọn combo Smart Tap + máy lọc nước để gầm Makxim, có một bộ hoàn chỉnh từ lọc đến lấy nước nóng.</p>
@@ -783,7 +783,7 @@ dialog::backdrop{background:rgba(10,10,12,.72);backdrop-filter:blur(4px)}
         <div class="save">Tiết kiệm 950.000đ</div>
         <ul>
           <li><svg class="i"><use href="#i-check"/></svg>Vòi Smart Tap 5 chế độ nước, 4 định lượng</li>
-          <li><svg class="i"><use href="#i-check"/></svg>Adapter nguồn và phụ kiện kết nối</li>
+          <li><svg class="i"><use href="#i-check"/></svg>Vòi, phụ kiện lắp đặt và sách hướng dẫn</li>
           <li><svg class="i"><use href="#i-check"/></svg>Bảo hành chính hãng Makxim</li>
           <li><svg class="i"><use href="#i-check"/></svg>Giao hàng và lắp đặt miễn phí</li>
         </ul>
@@ -822,17 +822,22 @@ dialog::backdrop{background:rgba(10,10,12,.72);backdrop-filter:blur(4px)}
         <span class="h">285mm</span>
       </div>
       <table class="spec reveal">
-        <tr><th>Tên sản phẩm</th><td>Smart Tap – Vòi lấy nước thông minh</td></tr>
-        <tr><th>Thương hiệu</th><td>Makxim</td></tr>
-        <tr><th>Chế độ nước</th><td>99°C · 85°C · 65°C · 45°C · Nước thường</td></tr>
-        <tr><th>Định lượng</th><td>150ml · 200ml · 300ml · 500ml</td></tr>
-        <tr><th>Công nghệ làm nóng</th><td>Công nghệ làm nóng tức thì</td></tr>
-        <tr><th>Điều khiển</th><td>Màn hình cảm ứng + núm xoay lấy nước thường</td></tr>
-        <tr><th>Chất liệu</th><td>Thép không gỉ Inox 304, mạ điện, sơn nhám chống nóng</td></tr>
-        <tr><th>Kích thước</th><td>Cao 285mm · Tầm với 180mm · Xoay 90°</td></tr>
+        <tr><th>Tên sản phẩm</th><td>Bộ vòi dùng cho máy lọc nước R.O MK-27TP (Smart Tap)</td></tr>
+        <tr><th>Thương hiệu</th><td>MAKXIM</td></tr>
+        <tr><th>Model</th><td>MK-27TP</td></tr>
+        <tr><th>Chế độ nước</th><td>45°C pha sữa · 65°C pha mật ong · 85°C pha cà phê · Nước sôi · Nước thường</td></tr>
+        <tr><th>Định lượng</th><td>200ml · 300ml · 500ml · 999ml</td></tr>
+        <tr><th>Công nghệ làm nóng</th><td>Làm nóng tức thì, khoảng 3 giây</td></tr>
+        <tr><th>Lưu lượng</th><td>Đến 5 lít/phút</td></tr>
+        <tr><th>Điện áp / tần số</th><td>220V AC / 50Hz</td></tr>
+        <tr><th>Công suất định mức</th><td>1800W</td></tr>
+        <tr><th>Màu sắc</th><td>Đen</td></tr>
+        <tr><th>Kích thước</th><td>Cao 285mm · Tầm với 180mm</td></tr>
         <tr><th>Lỗ lắp đặt</th><td>Đường kính 22 – 26mm</td></tr>
-        <tr><th>Nguồn điện</th><td>Adapter, cổng DC dưới thân vòi</td></tr>
-        <tr><th>Kết nối</th><td>Đường nước ra của máy lọc R.O / nước tinh khiết</td></tr>
+        <tr><th>Kết nối</th><td>Đường nước ra của hầu hết máy lọc nước R.O gia đình</td></tr>
+        <tr><th>Thành phần</th><td>Vòi, phụ kiện lắp đặt, sách hướng dẫn</td></tr>
+        <tr><th>Bảo hành</th><td>24 tháng</td></tr>
+        <tr><th>Xuất xứ</th><td>Trung Quốc</td></tr>
       </table>
     </div>
   </div>
@@ -1024,21 +1029,21 @@ navLinks.forEach(a=>a.addEventListener('click',e=>{
 
 // Mô phỏng màn hình cảm ứng
 const MODES=[
-  {t:'99',n:'Nước sôi',c:'#ff3b3b',title:'Pha mì, pha trà, tráng bình sữa',text:'Nhiệt độ cao nhất của Smart Tap, dùng cho mọi việc trước giờ phải bắc ấm lên bếp.',list:['Úp mì, nấu cháo ăn liền','Pha trà, hãm ấm trà ngon','Tráng bình sữa, chần rau nhanh']},
+  {t:'Sôi',n:'Nước sôi',c:'#ff3b3b',title:'Pha mì, pha trà, tráng bình sữa',text:'Nhiệt độ cao nhất của Smart Tap, dùng cho mọi việc trước giờ phải bắc ấm lên bếp.',list:['Úp mì, nấu cháo ăn liền','Pha trà, hãm ấm trà ngon','Tráng bình sữa, chần rau nhanh']},
   {t:'85',n:'Cà phê',c:'#ff7a1a',title:'Cà phê thơm, không đắng gắt',text:'85°C là nhiệt độ được nhiều người pha chế khuyên dùng cho cà phê: chiết đủ hương mà không làm cháy vị.',list:['Cà phê phin, pour-over, hòa tan','Trà ô long, hồng trà','Ngũ cốc, bột dinh dưỡng']},
   {t:'65',n:'Mật ong',c:'#f5b400',title:'Mật ong, trà xanh giữ trọn vị',text:'Nước quá nóng làm trà xanh bị chát và mật ong mất mùi thơm. 65°C vừa đủ ấm để hòa tan.',list:['Pha nước mật ong, chanh mật ong','Trà xanh, trà thảo mộc','Pha viên sủi, vitamin']},
-  {t:'45',n:'Pha sữa',c:'#f2dfb0',title:'Pha sữa cho bé, không cần thử nóng lạnh',text:'Bấm 45°C và 150ml là có đúng lượng nước ấm cho một cữ sữa, kể cả lúc nửa đêm.',list:['Pha sữa công thức','Nước ấm uống thuốc, súc miệng','Nước ấm cho người già, trẻ nhỏ']},
+  {t:'45',n:'Pha sữa',c:'#f2dfb0',title:'Pha sữa cho bé, không cần thử nóng lạnh',text:'Bấm 45°C và 200ml là có đúng lượng nước ấm cho một cữ sữa, kể cả lúc nửa đêm.',list:['Pha sữa công thức','Nước ấm uống thuốc, súc miệng','Nước ấm cho người già, trẻ nhỏ']},
   {t:'25',n:'Nước thường',c:'#5cc3ff',title:'Nước R.O tinh khiết, uống ngay',text:'Nước thường lấy bằng núm xoay, chảy thẳng từ máy lọc R.O. Mất điện vẫn lấy được.',list:['Uống trực tiếp','Nấu cơm, nấu canh','Vẫn dùng được khi mất điện']}
 ];
-const VOLS={150:'1 cữ sữa',200:'1 tách cà phê',300:'1 bát mì',500:'1 bình nước'};
+const VOLS={200:'1 tách cà phê',300:'1 bát mì',500:'1 bình nước',999:'gần 1 lít'};
 let mode=0, vol=200;
 function render(){
   const m=MODES[mode], ro=$('#readout');
-  ro.innerHTML=(mode===4?'25':m.t)+'<sup>°C</sup>';
+  ro.innerHTML=mode===0?m.t:(mode===4?'25':m.t)+'<sup>°C</sup>';
   ro.classList.toggle('cool',mode===4);
   $('#readoutSub').innerHTML=`<b>${m.n}</b> · ${vol}ml · ${VOLS[vol]}`;
   const info=$('#modeInfo'); info.style.setProperty('--c',m.c);
-  $('#miTag').textContent=(mode===4?'Nhiệt độ phòng':m.t+'°C')+' · '+m.n;
+  $('#miTag').textContent=(mode===4?'Nhiệt độ phòng':mode===0?'Sôi':m.t+'°C')+' · '+m.n;
   $('#miTitle').textContent=m.title; $('#miText').textContent=m.text;
   $('#miList').innerHTML=m.list.map(x=>`<li><svg class="i"><use href="#i-check"/></svg>${x}</li>`).join('');
   $('#cup').style.setProperty('--fill-c',m.c);
